@@ -6,11 +6,9 @@
         "@routes/*": ["/routes/*"],
         "@models/*": ["/models/*"],
         "@controllers/*": ["/controllers/*"],
-        "@components/*": ["/frontend/components/*"],
         "@middleware/*": ["/middleware/*"],
         "@config/*": ["/config/*"],
-        "@services/*": ["/services/*"],
-        "@hooks/*": ["/frontend/hooks/*"]
+        "@services/*": ["/services/*"]
       }
     },
     "exclude": ["node_modules", "**/node_modules/*"]
