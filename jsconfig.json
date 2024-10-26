@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "baseUrl": ".",
+      "paths": {
+        "@utils/*": ["/shared/utils/*"],
+        "@routes/*": ["/routes/*"],
+        "@models/*": ["/models/*"],
+        "@controllers/*": ["/controllers/*"],
+        "@components/*": ["/frontend/components/*"],
+        "@middleware/*": ["/middleware/*"],
+        "@config/*": ["/config/*"],
+        "@services/*": ["/services/*"],
+        "@hooks/*": ["/frontend/hooks/*"]
+      }
+    },
+    "exclude": ["node_modules", "**/node_modules/*"]
+  }

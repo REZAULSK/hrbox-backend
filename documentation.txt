@@ -1,0 +1,9 @@
+Backend
+===========================
+===========================
+1. npm init, npm i express, dotenv, mongoose and make server.js file
+2. "@babel/cli", "@babel/core", "@babel/node", "@babel/preset-env and create ".babelrc"  file inside the file input that code block {"presets": ["@babel/preset-env"]} which is for ES6 import module support.
+3. after that include this codeblock into script block in package.json 
+"scripts": {
+    "server": "nodemon --exec babel-node server.js"
+},
